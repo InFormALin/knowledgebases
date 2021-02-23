@@ -19,28 +19,28 @@
         <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_fa30f910_0edb_42df_8fed_f145be634162"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#OWLClass_1f3f8fd7_a2c0_4f3e_a0b6_d3d4b05dff37"/>
+        <Class IRI="#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9"/>
         <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
         <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_fa30f910_0edb_42df_8fed_f145be634162"/>
-        <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
     </SubClassOf>
     <FunctionalDataProperty>
         <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
@@ -65,6 +65,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9</IRI>
+        <Literal xml:lang="en">Ecore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a</IRI>
         <Literal xml:lang="en">FormalModel</Literal>
     </AnnotationAssertion>
@@ -72,11 +77,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a</IRI>
         <Literal xml:lang="en">TextDocument</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_fa30f910_0edb_42df_8fed_f145be634162</IRI>
-        <Literal xml:lang="en">UML</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
