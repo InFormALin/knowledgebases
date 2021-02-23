@@ -53,7 +53,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f</IRI>
-        <Literal xml:lang="en">ModelElements</Literal>
+        <Literal xml:lang="en">EcoreModelElements</Literal>
     </AnnotationAssertion>
 </Ontology>
 
