@@ -15,9 +15,9 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="model" IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#"/>
     <Prefix name="informalin" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
-    <Prefix name="informalin_ecore_base" IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#"/>
+    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"/>
     <Import>https://informalin.github.io/knowledgebases/informalin_base.owl</Import>
-    <Import>https://informalin.github.io/knowledgebases/informalin_ecore_base.owl</Import>
+    <Import>https://informalin.github.io/knowledgebases/informalin_base_ecore.owl</Import>
     <Declaration>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
     </Declaration>
@@ -2006,7 +2006,7 @@
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
@@ -2017,7 +2017,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
@@ -2028,7 +2028,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
@@ -2039,7 +2039,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
@@ -2050,7 +2050,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
@@ -2061,7 +2061,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
@@ -2072,7 +2072,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
@@ -2083,7 +2083,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
@@ -2124,7 +2124,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbstractNamedReference"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbstractUserAction"/>
@@ -2196,7 +2196,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BranchTransition"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CallAction"/>
@@ -2248,7 +2248,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Complex"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ComponentSpecifiedExecutionTime"/>
@@ -2292,11 +2292,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ContinuousSample"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataType"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Delay"/>
@@ -2316,7 +2316,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DummyClass"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EmitEventAction"/>
@@ -2360,7 +2360,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExceptionType"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExponentialDistribution"/>
@@ -2368,7 +2368,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Expression"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExternalCallAction"/>
@@ -2392,7 +2392,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FailureOccurrenceDescription"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FailureType"/>
@@ -2428,7 +2428,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Identifier"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IfElse"/>
@@ -2532,7 +2532,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NamedElement"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NamespaceReference"/>
@@ -2588,11 +2588,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Parameter"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ParametricResourceDemand"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Parenthesis"/>
@@ -2652,7 +2652,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Protocol"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProvidedDelegationConnector"/>
@@ -2676,7 +2676,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RandomVariable"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RecoveryAction"/>
@@ -2704,7 +2704,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RequiredCharacterisation"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RequiredDelegationConnector"/>
@@ -2780,11 +2780,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResourceRepository"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResourceRequiredDelegationConnector"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResourceRequiredRole"/>
@@ -2816,7 +2816,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sample"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SamplePDF"/>
@@ -2832,7 +2832,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ServiceEffectSpecification"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SetVariableAction"/>
@@ -2868,11 +2868,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecifiedOutputParameterAbstraction"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecifiedQoSAnnotation"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecifiedReliabilityAnnotation"/>
@@ -2940,11 +2940,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UnitCarryingElement"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UsageModel"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UsageScenario"/>
@@ -2952,7 +2952,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UserData"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Variable"/>
@@ -2960,7 +2960,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableCharacterisation"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableReference"/>
@@ -2968,11 +2968,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableUsage"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Workload"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#allocation"/>
@@ -2996,11 +2996,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#pcm"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EPackage"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EPackage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#probfunction"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EPackage"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EPackage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#protocol"/>
@@ -3048,7 +3048,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stoex"/>
-        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EPackage"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EPackage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#subsystem"/>

@@ -6,15 +6,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl">
-    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl"/>
+    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#"/>
+    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"/>
     <Prefix name="informalin" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
-    <Prefix name="informalin_ecore_base" IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#"/>
+    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"/>
     <Import>https://informalin.github.io/knowledgebases/informalin_base.owl</Import>
     <Declaration>
         <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
