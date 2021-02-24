@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://informalin.github.io/knowledgebases/informalin_base"
+     xml:base="https://informalin.github.io/knowledgebases/informalin_base.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base">
+     ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base.owl">
     <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
