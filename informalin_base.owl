@@ -13,35 +13,56 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#OWLClass_1f3f8fd7_a2c0_4f3e_a0b6_d3d4b05dff37"/>
+        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
+        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#OWLClass_1f3f8fd7_a2c0_4f3e_a0b6_d3d4b05dff37"/>
-        <Class IRI="#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9"/>
-        <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
+        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
         <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
+    </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
+    </IrreflexiveObjectProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
     </FunctionalDataProperty>
@@ -55,8 +76,8 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_1f3f8fd7_a2c0_4f3e_a0b6_d3d4b05dff37</IRI>
-        <Literal xml:lang="en">PCM</Literal>
+        <IRI>#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0</IRI>
+        <Literal xml:lang="en">InformalElements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -65,23 +86,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_82eaf97b_9733_4f58_9b6f_b870f64888d9</IRI>
-        <Literal xml:lang="en">Ecore</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a</IRI>
         <Literal xml:lang="en">FormalModel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a</IRI>
-        <Literal xml:lang="en">TextDocument</Literal>
+        <IRI>#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c</IRI>
+        <Literal xml:lang="en">uuid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c</IRI>
-        <Literal xml:lang="en">uuid</Literal>
+        <IRI>#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637</IRI>
+        <Literal xml:lang="en">contains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64</IRI>
+        <Literal xml:lang="en">containedIn</Literal>
     </AnnotationAssertion>
 </Ontology>
 

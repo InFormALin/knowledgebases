@@ -6,49 +6,67 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base_ecore">
+    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://informalin.github.io/knowledgebases/informalin_base</Import>
     <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#EClass"/>
+        <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#EPackage"/>
+        <Class IRI="#OWLClass_EClass"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#EEnum"/>
+        <Class IRI="#OWLClass_EEnum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_EPackage"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#EClass"/>
+        <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_EClass"/>
         <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#EPackage"/>
+        <Class IRI="#OWLClass_EEnum"/>
         <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#EEnum"/>
+        <Class IRI="#OWLClass_EPackage"/>
         <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
+        <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl#EClass</IRI>
+        <IRI>#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01</IRI>
+        <Literal xml:lang="en">Ecore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_EClass</IRI>
         <Literal xml:lang="en">EClass</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl#EPackage</IRI>
-        <Literal xml:lang="en">EPackage</Literal>
+        <IRI>#OWLClass_EEnum</IRI>
+        <Literal xml:lang="en">EEnum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#EEnum</IRI>
-        <Literal xml:lang="en">EEnum</Literal>
+        <IRI>#OWLClass_EPackage</IRI>
+        <Literal xml:lang="en">EPackage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
