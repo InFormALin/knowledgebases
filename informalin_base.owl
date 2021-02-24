@@ -56,12 +56,6 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
     </TransitiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
-    </IrreflexiveObjectProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
     </FunctionalDataProperty>
