@@ -41,6 +41,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
         <DataExactCardinality cardinality="1">
             <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
             <Datatype abbreviatedIRI="xsd:string"/>
