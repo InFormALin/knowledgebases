@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://informalin.github.io/knowledgebases/informalin_example_1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://informalin.github.io/knowledgebases/informalin_example_1">
+    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_example_1"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://informalin.github.io/knowledgebases/informalin_base_pcm.owl</Import>
+    <Import>https://informalin.github.io/knowledgebases/informalin_base_text</Import>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_3ee1a1c4_ab7e_42c3_833f_bd6ce729b184"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_4f4067d0_7650_4a4e_9356_d5b121c40ff7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca889074_244c_41ff_a205_3beeb1b94ff1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_eeaae6f8_1fc4_493e_ac61_d3c3af9a75e9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_eef54e02_1dbe_4ee4_b877_b359a3ee5f43"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3ee1a1c4_ab7e_42c3_833f_bd6ce729b184"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_4f4067d0_7650_4a4e_9356_d5b121c40ff7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca889074_244c_41ff_a205_3beeb1b94ff1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_eeaae6f8_1fc4_493e_ac61_d3c3af9a75e9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_eef54e02_1dbe_4ee4_b877_b359a3ee5f43"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_4f4067d0_7650_4a4e_9356_d5b121c40ff7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3ee1a1c4_ab7e_42c3_833f_bd6ce729b184"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_4f4067d0_7650_4a4e_9356_d5b121c40ff7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca889074_244c_41ff_a205_3beeb1b94ff1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_eeaae6f8_1fc4_493e_ac61_d3c3af9a75e9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_eef54e02_1dbe_4ee4_b877_b359a3ee5f43"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
+        <Literal>p_1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_4f4067d0_7650_4a4e_9356_d5b121c40ff7"/>
+        <Literal>s_1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca889074_244c_41ff_a205_3beeb1b94ff1"/>
+        <Literal>2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7"/>
+        <Literal>ph_1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_eeaae6f8_1fc4_493e_ac61_d3c3af9a75e9"/>
+        <Literal>3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_eef54e02_1dbe_4ee4_b877_b359a3ee5f43"/>
+        <Literal>1</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95</IRI>
+        <Literal xml:lang="en">Paragraph1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_3ee1a1c4_ab7e_42c3_833f_bd6ce729b184</IRI>
+        <Literal xml:lang="en">Document1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_4f4067d0_7650_4a4e_9356_d5b121c40ff7</IRI>
+        <Literal xml:lang="en">Sentence1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ca889074_244c_41ff_a205_3beeb1b94ff1</IRI>
+        <Literal xml:lang="en">World</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_e8ec9bec_1537_46d3_b219_c84b6d01f5c7</IRI>
+        <Literal xml:lang="en">Phrase1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_eeaae6f8_1fc4_493e_ac61_d3c3af9a75e9</IRI>
+        <Literal xml:lang="en">Hello</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_eef54e02_1dbe_4ee4_b877_b359a3ee5f43</IRI>
+        <Literal xml:lang="en">!</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
