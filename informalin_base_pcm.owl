@@ -6,13 +6,16 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl">
-    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl"/>
+    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="pcm" IRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="model" IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#"/>
+    <Prefix name="informalin" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
+    <Prefix name="informalin_ecore_base" IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#"/>
     <Import>https://informalin.github.io/knowledgebases/informalin_base.owl</Import>
     <Import>https://informalin.github.io/knowledgebases/informalin_ecore_base.owl</Import>
     <Declaration>
@@ -2003,7 +2006,7 @@
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
@@ -2014,7 +2017,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
@@ -2025,7 +2028,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
@@ -2036,7 +2039,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
@@ -2047,7 +2050,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
@@ -2058,7 +2061,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
@@ -2069,7 +2072,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
@@ -2080,7 +2083,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EEnum"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EEnum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
@@ -2121,7 +2124,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbstractNamedReference"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbstractUserAction"/>
@@ -2193,7 +2196,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BranchTransition"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CallAction"/>
@@ -2245,7 +2248,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Complex"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ComponentSpecifiedExecutionTime"/>
@@ -2289,11 +2292,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ContinuousSample"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataType"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Delay"/>
@@ -2313,7 +2316,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DummyClass"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EmitEventAction"/>
@@ -2357,7 +2360,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExceptionType"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExponentialDistribution"/>
@@ -2365,7 +2368,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Expression"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExternalCallAction"/>
@@ -2389,7 +2392,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FailureOccurrenceDescription"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FailureType"/>
@@ -2425,7 +2428,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Identifier"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IfElse"/>
@@ -2529,7 +2532,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NamedElement"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NamespaceReference"/>
@@ -2585,11 +2588,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Parameter"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ParametricResourceDemand"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Parenthesis"/>
@@ -2649,7 +2652,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Protocol"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProvidedDelegationConnector"/>
@@ -2673,7 +2676,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RandomVariable"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RecoveryAction"/>
@@ -2701,7 +2704,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RequiredCharacterisation"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RequiredDelegationConnector"/>
@@ -2777,11 +2780,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResourceRepository"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResourceRequiredDelegationConnector"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResourceRequiredRole"/>
@@ -2813,7 +2816,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sample"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SamplePDF"/>
@@ -2829,7 +2832,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ServiceEffectSpecification"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SetVariableAction"/>
@@ -2865,11 +2868,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecifiedOutputParameterAbstraction"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecifiedQoSAnnotation"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecifiedReliabilityAnnotation"/>
@@ -2937,11 +2940,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UnitCarryingElement"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UsageModel"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UsageScenario"/>
@@ -2949,7 +2952,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UserData"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Variable"/>
@@ -2957,7 +2960,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableCharacterisation"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableReference"/>
@@ -2965,11 +2968,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableUsage"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Workload"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EClass"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#allocation"/>
@@ -2993,11 +2996,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#pcm"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EPackage"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EPackage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#probfunction"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EPackage"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EPackage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#protocol"/>
@@ -3045,7 +3048,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stoex"/>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_ecore_base.owl#OWLClass_EPackage"/>
+        <Class abbreviatedIRI="informalin_ecore_base:OWLClass_EPackage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#subsystem"/>
