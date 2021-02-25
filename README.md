@@ -11,7 +11,7 @@ Currently, there are the following ontologies to use as base for your knowledge-
 | InFormALin Base Text | https://informalin.github.io/knowledgebases/informalin_base_text.owl | |
 
 The following example ontologies should give a rough idea how to use them:
-- https://informalin.github.io/knowledgebases/examples/informalin_example_MediaStore.owl: (MediaStore)[https://github.com/ArDoCo/CaseStudies/tree/master/MediaStore3_Model] example combining PCM and Textual Documentation
+- https://informalin.github.io/knowledgebases/examples/informalin_example_MediaStore.owl: [MediaStore](https://github.com/ArDoCo/CaseStudies/tree/master/MediaStore3_Model) example combining PCM and Textual Documentation
 
 ## Create new ontologies
 
