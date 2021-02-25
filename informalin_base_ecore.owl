@@ -30,9 +30,6 @@
     <Declaration>
         <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_f391ae29_42d5_40cd_ba93_db48e9633dca"/>
-    </Declaration>
     <SubClassOf>
         <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
         <Class abbreviatedIRI="informalin:OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
@@ -51,11 +48,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
-        <Class IRI="#OWLClass_f391ae29_42d5_40cd_ba93_db48e9633dca"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_f391ae29_42d5_40cd_ba93_db48e9633dca"/>
-        <Class abbreviatedIRI="informalin:OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
+        <Class abbreviatedIRI="informalin:OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -81,11 +74,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f</IRI>
         <Literal xml:lang="en">EcoreModelElements</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_f391ae29_42d5_40cd_ba93_db48e9633dca</IRI>
-        <Literal xml:lang="en">FormalModelElements</Literal>
     </AnnotationAssertion>
 </Ontology>
 
