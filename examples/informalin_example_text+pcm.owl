@@ -13,7 +13,22 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>https://informalin.github.io/knowledgebases/informalin_base_pcm.owl</Import>
-    <Import>https://informalin.github.io/knowledgebases/informalin_base_text</Import>
+    <Import>https://informalin.github.io/knowledgebases/informalin_base_text.owl</Import>
+    <Declaration>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
+    </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
     </Declaration>
@@ -40,7 +55,7 @@
         <NamedIndividual IRI="#OWLNamedIndividual_16e4a86e_f30f_423c_976e_a04f41f59b95"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
+        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
         <NamedIndividual IRI="#OWLNamedIndividual_3ee1a1c4_ab7e_42c3_833f_bd6ce729b184"/>
     </ClassAssertion>
     <ClassAssertion>

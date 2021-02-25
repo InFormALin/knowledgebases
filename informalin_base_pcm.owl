@@ -6,42 +6,18 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl">
-    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
+    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="pcm" IRI="https://informalin.github.io/knowledgebases/informalin_base_pcm.owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"/>
     <Prefix name="model" IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl#"/>
     <Prefix name="informalin" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
-    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"/>
     <Import>https://informalin.github.io/knowledgebases/informalin_base.owl</Import>
     <Import>https://informalin.github.io/knowledgebases/informalin_base_ecore.owl</Import>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-    </Declaration>
     <Declaration>
         <Class IRI="#AbstractAction"/>
     </Declaration>
@@ -97,6 +73,9 @@
         <Class IRI="#BooleanExpression"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BooleanOperations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BooleanOperatorExpression"/>
     </Declaration>
     <Declaration>
@@ -139,6 +118,9 @@
         <Class IRI="#CompareExpression"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CompareOperations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Comparison"/>
     </Declaration>
     <Declaration>
@@ -149,6 +131,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ComponentSpecifiedExecutionTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComponentType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ComposedProvidingRequiringEntity"/>
@@ -370,6 +355,9 @@
         <Class IRI="#Parameter"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ParameterModifier"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ParametricResourceDemand"/>
     </Declaration>
     <Declaration>
@@ -386,6 +374,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#PrimitiveDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimitiveTypeEnum"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ProbabilisticBranchTransition"/>
@@ -413,6 +404,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ProductExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductOperations"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Protocol"/>
@@ -604,6 +598,9 @@
         <Class IRI="#TermExpression"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#TermOperations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Unary"/>
     </Declaration>
     <Declaration>
@@ -623,6 +620,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#VariableCharacterisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VariableCharacterisationType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VariableReference"/>
@@ -698,36 +698,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#usagemodel"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#characterisationType_-_CharacterisedVariable"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#componentType_-_ImplementationComponentType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#modifier__Parameter_-_Parameter"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_BooleanOperatorExpression"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_CompareExpression"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_ProductExpression"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_TermExpression"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_PrimitiveDataType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_RequiredCharacterisation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_VariableCharacterisation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#abstractBranchTransition_ResourceDemandingBehaviour_-_ResourceDemandingBehaviour"/>
@@ -1834,278 +1804,176 @@
         <DataProperty IRI="#value_-_StringLiteral"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_AND"/>
+        <NamedIndividual IRI="#BooleanOperations_AND"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_OR"/>
+        <NamedIndividual IRI="#BooleanOperations_OR"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_XOR"/>
+        <NamedIndividual IRI="#BooleanOperations_XOR"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_EQUALS"/>
+        <NamedIndividual IRI="#CompareOperations_EQUALS"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_GREATER"/>
+        <NamedIndividual IRI="#CompareOperations_GREATER"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_GREATEREQUAL"/>
+        <NamedIndividual IRI="#CompareOperations_GREATEREQUAL"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_LESS"/>
+        <NamedIndividual IRI="#CompareOperations_LESS"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_LESSEQUAL"/>
+        <NamedIndividual IRI="#CompareOperations_LESSEQUAL"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_NOTEQUAL"/>
+        <NamedIndividual IRI="#CompareOperations_NOTEQUAL"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType_BUSINESS_COMPONENT"/>
+        <NamedIndividual IRI="#ComponentType_BUSINESS_COMPONENT"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType_INFRASTRUCTURE_COMPONENT"/>
+        <NamedIndividual IRI="#ComponentType_INFRASTRUCTURE_COMPONENT"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_in"/>
+        <NamedIndividual IRI="#ParameterModifier_in"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_inout"/>
+        <NamedIndividual IRI="#ParameterModifier_inout"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_none"/>
+        <NamedIndividual IRI="#ParameterModifier_none"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_out"/>
+        <NamedIndividual IRI="#ParameterModifier_out"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_BOOL"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_BOOL"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_BYTE"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_BYTE"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_CHAR"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_CHAR"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_DOUBLE"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_DOUBLE"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_INT"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_INT"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_LONG"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_LONG"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_STRING"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_STRING"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_DIV"/>
+        <NamedIndividual IRI="#ProductOperations_DIV"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_MOD"/>
+        <NamedIndividual IRI="#ProductOperations_MOD"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_MULT"/>
+        <NamedIndividual IRI="#ProductOperations_MULT"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations_ADD"/>
+        <NamedIndividual IRI="#TermOperations_ADD"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations_SUB"/>
+        <NamedIndividual IRI="#TermOperations_SUB"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_BYTESIZE"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_BYTESIZE"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_NUMBER_OF_ELEMENTS"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_NUMBER_OF_ELEMENTS"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_STRUCTURE"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_STRUCTURE"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_TYPE"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_TYPE"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_VALUE"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_VALUE"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="owl:maxCardinality"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
+        <Class IRI="#BooleanOperations"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_AND"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_OR"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_XOR"/>
+            <NamedIndividual IRI="#BooleanOperations_AND"/>
+            <NamedIndividual IRI="#BooleanOperations_OR"/>
+            <NamedIndividual IRI="#BooleanOperations_XOR"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
+        <Class IRI="#CompareOperations"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_EQUALS"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_GREATER"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_GREATEREQUAL"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_LESS"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_LESSEQUAL"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_NOTEQUAL"/>
+            <NamedIndividual IRI="#CompareOperations_EQUALS"/>
+            <NamedIndividual IRI="#CompareOperations_GREATER"/>
+            <NamedIndividual IRI="#CompareOperations_GREATEREQUAL"/>
+            <NamedIndividual IRI="#CompareOperations_LESS"/>
+            <NamedIndividual IRI="#CompareOperations_LESSEQUAL"/>
+            <NamedIndividual IRI="#CompareOperations_NOTEQUAL"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
+        <Class IRI="#ComponentType"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType_BUSINESS_COMPONENT"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType_INFRASTRUCTURE_COMPONENT"/>
+            <NamedIndividual IRI="#ComponentType_BUSINESS_COMPONENT"/>
+            <NamedIndividual IRI="#ComponentType_INFRASTRUCTURE_COMPONENT"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
+        <Class IRI="#ParameterModifier"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_in"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_inout"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_none"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_out"/>
+            <NamedIndividual IRI="#ParameterModifier_in"/>
+            <NamedIndividual IRI="#ParameterModifier_inout"/>
+            <NamedIndividual IRI="#ParameterModifier_none"/>
+            <NamedIndividual IRI="#ParameterModifier_out"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_BOOL"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_BYTE"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_CHAR"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_DOUBLE"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_INT"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_LONG"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_STRING"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_BOOL"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_BYTE"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_CHAR"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_DOUBLE"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_INT"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_LONG"/>
+            <NamedIndividual IRI="#PrimitiveTypeEnum_STRING"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
+        <Class IRI="#ProductOperations"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_DIV"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_MOD"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_MULT"/>
+            <NamedIndividual IRI="#ProductOperations_DIV"/>
+            <NamedIndividual IRI="#ProductOperations_MOD"/>
+            <NamedIndividual IRI="#ProductOperations_MULT"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
+        <Class IRI="#TermOperations"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations_ADD"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations_SUB"/>
+            <NamedIndividual IRI="#TermOperations_ADD"/>
+            <NamedIndividual IRI="#TermOperations_SUB"/>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
+        <Class IRI="#VariableCharacterisationType"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_BYTESIZE"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_NUMBER_OF_ELEMENTS"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_STRUCTURE"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_TYPE"/>
-            <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_VALUE"/>
+            <NamedIndividual IRI="#VariableCharacterisationType_BYTESIZE"/>
+            <NamedIndividual IRI="#VariableCharacterisationType_NUMBER_OF_ELEMENTS"/>
+            <NamedIndividual IRI="#VariableCharacterisationType_STRUCTURE"/>
+            <NamedIndividual IRI="#VariableCharacterisationType_TYPE"/>
+            <NamedIndividual IRI="#VariableCharacterisationType_VALUE"/>
         </ObjectOneOf>
     </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_BooleanOperatorExpression"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_CompareExpression"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#componentType_-_ImplementationComponentType"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#modifier__Parameter_-_Parameter"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_PrimitiveDataType"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_ProductExpression"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_TermExpression"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#characterisationType_-_CharacterisedVariable"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_RequiredCharacterisation"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_VariableCharacterisation"/>
-            <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbstractAction"/>
         <Class IRI="#Entity"/>
@@ -2179,6 +2047,17 @@
         <Class IRI="#IfElse"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BooleanOperations"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BooleanOperations"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#operation_-_BooleanOperatorExpression"/>
+            <Class IRI="#BooleanOperations"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BooleanOperatorExpression"/>
         <Class IRI="#BooleanExpression"/>
     </SubClassOf>
@@ -2239,6 +2118,17 @@
         <Class IRI="#Comparison"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CompareOperations"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompareOperations"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#operation_-_CompareExpression"/>
+            <Class IRI="#CompareOperations"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Comparison"/>
         <Class IRI="#BooleanExpression"/>
     </SubClassOf>
@@ -2253,6 +2143,17 @@
     <SubClassOf>
         <Class IRI="#ComponentSpecifiedExecutionTime"/>
         <Class IRI="#SpecifiedExecutionTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComponentType"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComponentType"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#componentType_-_ImplementationComponentType"/>
+            <Class IRI="#ComponentType"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ComposedProvidingRequiringEntity"/>
@@ -2591,6 +2492,17 @@
         <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ParameterModifier"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParameterModifier"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#modifier__Parameter_-_Parameter"/>
+            <Class IRI="#ParameterModifier"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ParametricResourceDemand"/>
         <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
     </SubClassOf>
@@ -2613,6 +2525,17 @@
     <SubClassOf>
         <Class IRI="#PrimitiveDataType"/>
         <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#type_-_PrimitiveDataType"/>
+            <Class IRI="#PrimitiveTypeEnum"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProbabilisticBranchTransition"/>
@@ -2649,6 +2572,17 @@
     <SubClassOf>
         <Class IRI="#ProductExpression"/>
         <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOperations"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOperations"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#operation_-_ProductExpression"/>
+            <Class IRI="#ProductOperations"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Protocol"/>
@@ -2935,6 +2869,17 @@
         <Class IRI="#Term"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TermOperations"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TermOperations"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#operation_-_TermExpression"/>
+            <Class IRI="#TermOperations"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Unary"/>
         <Class IRI="#Power"/>
     </SubClassOf>
@@ -2961,6 +2906,31 @@
     <SubClassOf>
         <Class IRI="#VariableCharacterisation"/>
         <Class abbreviatedIRI="ecore:OWLClass_EClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableCharacterisationType"/>
+        <Class abbreviatedIRI="ecore:OWLClass_EEnum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableCharacterisationType"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#characterisationType_-_CharacterisedVariable"/>
+            <Class IRI="#VariableCharacterisationType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableCharacterisationType"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#type_-_RequiredCharacterisation"/>
+            <Class IRI="#VariableCharacterisationType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableCharacterisationType"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#type_-_VariableCharacterisation"/>
+            <Class IRI="#VariableCharacterisationType"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VariableReference"/>
@@ -3063,132 +3033,132 @@
         <Class IRI="#pcm"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_AND"/>
+        <Class IRI="#BooleanOperations"/>
+        <NamedIndividual IRI="#BooleanOperations_AND"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_OR"/>
+        <Class IRI="#BooleanOperations"/>
+        <NamedIndividual IRI="#BooleanOperations_OR"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations_XOR"/>
+        <Class IRI="#BooleanOperations"/>
+        <NamedIndividual IRI="#BooleanOperations_XOR"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_EQUALS"/>
+        <Class IRI="#CompareOperations"/>
+        <NamedIndividual IRI="#CompareOperations_EQUALS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_GREATER"/>
+        <Class IRI="#CompareOperations"/>
+        <NamedIndividual IRI="#CompareOperations_GREATER"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_GREATEREQUAL"/>
+        <Class IRI="#CompareOperations"/>
+        <NamedIndividual IRI="#CompareOperations_GREATEREQUAL"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_LESS"/>
+        <Class IRI="#CompareOperations"/>
+        <NamedIndividual IRI="#CompareOperations_LESS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_LESSEQUAL"/>
+        <Class IRI="#CompareOperations"/>
+        <NamedIndividual IRI="#CompareOperations_LESSEQUAL"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations_NOTEQUAL"/>
+        <Class IRI="#CompareOperations"/>
+        <NamedIndividual IRI="#CompareOperations_NOTEQUAL"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType_BUSINESS_COMPONENT"/>
+        <Class IRI="#ComponentType"/>
+        <NamedIndividual IRI="#ComponentType_BUSINESS_COMPONENT"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType_INFRASTRUCTURE_COMPONENT"/>
+        <Class IRI="#ComponentType"/>
+        <NamedIndividual IRI="#ComponentType_INFRASTRUCTURE_COMPONENT"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_in"/>
+        <Class IRI="#ParameterModifier"/>
+        <NamedIndividual IRI="#ParameterModifier_in"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_inout"/>
+        <Class IRI="#ParameterModifier"/>
+        <NamedIndividual IRI="#ParameterModifier_inout"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_none"/>
+        <Class IRI="#ParameterModifier"/>
+        <NamedIndividual IRI="#ParameterModifier_none"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier_out"/>
+        <Class IRI="#ParameterModifier"/>
+        <NamedIndividual IRI="#ParameterModifier_out"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_BOOL"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_BOOL"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_BYTE"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_BYTE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_CHAR"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_CHAR"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_DOUBLE"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_DOUBLE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_INT"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_INT"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_LONG"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_LONG"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum_STRING"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+        <NamedIndividual IRI="#PrimitiveTypeEnum_STRING"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_DIV"/>
+        <Class IRI="#ProductOperations"/>
+        <NamedIndividual IRI="#ProductOperations_DIV"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_MOD"/>
+        <Class IRI="#ProductOperations"/>
+        <NamedIndividual IRI="#ProductOperations_MOD"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations_MULT"/>
+        <Class IRI="#ProductOperations"/>
+        <NamedIndividual IRI="#ProductOperations_MULT"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations_ADD"/>
+        <Class IRI="#TermOperations"/>
+        <NamedIndividual IRI="#TermOperations_ADD"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations_SUB"/>
+        <Class IRI="#TermOperations"/>
+        <NamedIndividual IRI="#TermOperations_SUB"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_BYTESIZE"/>
+        <Class IRI="#VariableCharacterisationType"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_BYTESIZE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_NUMBER_OF_ELEMENTS"/>
+        <Class IRI="#VariableCharacterisationType"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_NUMBER_OF_ELEMENTS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_STRUCTURE"/>
+        <Class IRI="#VariableCharacterisationType"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_STRUCTURE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_TYPE"/>
+        <Class IRI="#VariableCharacterisationType"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_TYPE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-        <NamedIndividual IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType_VALUE"/>
+        <Class IRI="#VariableCharacterisationType"/>
+        <NamedIndividual IRI="#VariableCharacterisationType_VALUE"/>
     </ClassAssertion>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#action_ParametricResourceDemand_-_ParametricResourceDemand"/>
@@ -5040,46 +5010,6 @@
         <Class IRI="#HDDProcessingResourceSpecification"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#characterisationType_-_CharacterisedVariable"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#componentType_-_ImplementationComponentType"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#modifier__Parameter_-_Parameter"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_BooleanOperatorExpression"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_CompareExpression"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_ProductExpression"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#operation_-_TermExpression"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_PrimitiveDataType"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_RequiredCharacterisation"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#type_-_VariableCharacterisation"/>
-        <Class IRI="http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#abstractBranchTransition_ResourceDemandingBehaviour_-_ResourceDemandingBehaviour"/>
         <Class IRI="#AbstractBranchTransition"/>
     </ObjectPropertyRange>
@@ -5260,6 +5190,10 @@
         <Class IRI="#PCMRandomVariable"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#characterisationType_-_CharacterisedVariable"/>
+        <Class IRI="#VariableCharacterisationType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#closedWorkload_PCMRandomVariable_-_PCMRandomVariable"/>
         <Class IRI="#ClosedWorkload"/>
     </ObjectPropertyRange>
@@ -5286,6 +5220,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#componentParameterUsage_ImplementationComponentType_-_ImplementationComponentType"/>
         <Class IRI="#VariableUsage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#componentType_-_ImplementationComponentType"/>
+        <Class IRI="#ComponentType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#components__Repository_-_Repository"/>
@@ -5648,6 +5586,10 @@
         <Class IRI="#Loop"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#modifier__Parameter_-_Parameter"/>
+        <Class IRI="#ParameterModifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#namedReference__VariableUsage_-_VariableUsage"/>
         <Class IRI="#AbstractNamedReference"/>
     </ObjectPropertyRange>
@@ -5678,6 +5620,22 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#operationSignature__Parameter_-_Parameter"/>
         <Class IRI="#OperationSignature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operation_-_BooleanOperatorExpression"/>
+        <Class IRI="#BooleanOperations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operation_-_CompareExpression"/>
+        <Class IRI="#CompareOperations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operation_-_ProductExpression"/>
+        <Class IRI="#ProductOperations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operation_-_TermExpression"/>
+        <Class IRI="#TermOperations"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#outerProvidedRole_ProvidedDelegationConnector_-_ProvidedDelegationConnector"/>
@@ -6270,6 +6228,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#timeSpecification_Delay_-_Delay"/>
         <Class IRI="#PCMRandomVariable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_-_PrimitiveDataType"/>
+        <Class IRI="#PrimitiveTypeEnum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_-_RequiredCharacterisation"/>
+        <Class IRI="#VariableCharacterisationType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_-_VariableCharacterisation"/>
+        <Class IRI="#VariableCharacterisationType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#usageModel_UsageScenario_-_UsageScenario"/>
@@ -6797,46 +6767,6 @@
         <DataProperty IRI="#value_-_StringLiteral"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#BooleanOperations</IRI>
-        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#CompareOperations</IRI>
-        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ComponentType</IRI>
-        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ParameterModifier</IRI>
-        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#PrimitiveTypeEnum</IRI>
-        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#ProductOperations</IRI>
-        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#TermOperations</IRI>
-        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://palladiosimulator.org/PalladioComponentModel/5.2/owl2#VariableCharacterisationType</IRI>
-        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Parameter/5.2</Literal>
-    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AbstractAction</IRI>
@@ -6969,6 +6899,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BooleanOperations</IRI>
+        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#BooleanOperatorExpression</IRI>
         <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
     </AnnotationAssertion>
@@ -7044,6 +6979,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CompareOperations</IRI>
+        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Comparison</IRI>
         <Literal xml:lang="classtype">abstract</Literal>
     </AnnotationAssertion>
@@ -7066,6 +7006,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ComponentSpecifiedExecutionTime</IRI>
         <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/QoSAnnotations/QoS_Performance/5.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ComponentType</IRI>
+        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7544,6 +7489,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParameterModifier</IRI>
+        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ParametricResourceDemand</IRI>
         <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/SEFF/SEFF_Performance/5.2</Literal>
     </AnnotationAssertion>
@@ -7575,6 +7525,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PrimitiveDataType</IRI>
+        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrimitiveTypeEnum</IRI>
         <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Repository/5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -7635,6 +7590,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ProductExpression</IRI>
+        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProductOperations</IRI>
         <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -8014,6 +7974,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TermOperations</IRI>
+        <Literal xml:lang="nsuri">http://sdq.ipd.uka.de/StochasticExpressions/2.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Unary</IRI>
         <Literal xml:lang="classtype">abstract</Literal>
     </AnnotationAssertion>
@@ -8050,6 +8015,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#VariableCharacterisation</IRI>
+        <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Parameter/5.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VariableCharacterisationType</IRI>
         <Literal xml:lang="nsuri">http://palladiosimulator.org/PalladioComponentModel/Parameter/5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
