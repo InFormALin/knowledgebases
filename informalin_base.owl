@@ -21,6 +21,9 @@
         <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
     </Declaration>
     <Declaration>
@@ -53,6 +56,10 @@
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataExactCardinality>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
+        <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
+    </SubClassOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
         <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
@@ -78,6 +85,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0</IRI>
         <Literal xml:lang="en">InformalElements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57</IRI>
+        <Literal xml:lang="en">FormalModelElements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
