@@ -1,81 +1,73 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl"
      xml:base="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl">
-    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="ecore" IRI="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"/>
-    <Prefix name="informalin" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
-    <Import>https://informalin.github.io/knowledgebases/informalin_base.owl</Import>
-    <Declaration>
-        <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_EClass"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_EEnum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_EPackage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01"/>
-        <Class abbreviatedIRI="informalin:OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_EClass"/>
-        <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_EEnum"/>
-        <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_EPackage"/>
-        <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
-        <Class abbreviatedIRI="informalin:OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
-    </SubClassOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01</IRI>
-        <Literal xml:lang="en">Ecore</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_EClass</IRI>
-        <Literal xml:lang="en">EClass</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_EEnum</IRI>
-        <Literal xml:lang="en">EEnum</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_EPackage</IRI>
-        <Literal xml:lang="en">EPackage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f</IRI>
-        <Literal xml:lang="en">EcoreModelElements</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:ecore="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#"
+     xmlns:informalin="https://informalin.github.io/knowledgebases/informalin_base.owl#">
+    <owl:Ontology rdf:about="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl">
+        <owl:imports rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01 -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_07ebfe27_48f8_44ae_a058_d245321fea01">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
+        <rdfs:label xml:lang="en">Ecore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_EClass -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_EClass">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
+        <rdfs:label xml:lang="en">EClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_EEnum -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_EEnum">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
+        <rdfs:label xml:lang="en">EEnum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_EPackage -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_EPackage">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f"/>
+        <rdfs:label xml:lang="en">EPackage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_ecore.owl#OWLClass_f120fee6_9b8d_4dfd_9b2c_405cdb82291f">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
+        <rdfs:label xml:lang="en">EcoreModelElements</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
 
 
 

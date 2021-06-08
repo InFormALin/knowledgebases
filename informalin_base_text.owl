@@ -1,94 +1,85 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="https://informalin.github.io/knowledgebases/informalin_base_text.owl"
      xml:base="https://informalin.github.io/knowledgebases/informalin_base_text.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base_text.owl">
-    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base_text"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="informalin" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
-    <Import>https://informalin.github.io/knowledgebases/informalin_base.owl</Import>
-    <Declaration>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
-        <Class abbreviatedIRI="informalin:OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef"/>
-        <Class abbreviatedIRI="informalin:OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c"/>
-        <Class abbreviatedIRI="informalin:OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9"/>
-        <Class abbreviatedIRI="informalin:OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
-        <Class abbreviatedIRI="informalin:OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="informalin:OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="informalin:OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0</IRI>
-        <Literal xml:lang="en">Word</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef</IRI>
-        <Literal xml:lang="en">Paragraph</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c</IRI>
-        <Literal xml:lang="en">Sentence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9</IRI>
-        <Literal xml:lang="en">Phrase</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a</IRI>
-        <Literal xml:lang="en">TextDocument</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:informalin="https://informalin.github.io/knowledgebases/informalin_base.owl#">
+    <owl:Ontology rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl">
+        <owl:imports rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0 -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <rdfs:label xml:lang="en">Word</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_3685094d_4871_4280_b836_163255dde9ef">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <rdfs:label xml:lang="en">Paragraph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_a9f09962_d971_4dd4_8418_262ec1d9cc8c">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <rdfs:label xml:lang="en">Sentence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9 -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_c5e99958_f8e4_4a29_bd8e_ea2c14075ec9">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <rdfs:label xml:lang="en">Phrase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">TextDocument</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
 
 
 

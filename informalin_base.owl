@@ -1,122 +1,126 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="https://informalin.github.io/knowledgebases/informalin_base.owl"
      xml:base="https://informalin.github.io/knowledgebases/informalin_base.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://informalin.github.io/knowledgebases/informalin_base.owl">
-    <Prefix name="" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="informalin_base" IRI="https://informalin.github.io/knowledgebases/informalin_base.owl#"/>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">Base ontology for the knowledge bases of the InFormALin project</Literal>
-    </Annotation>
-    <Declaration>
-        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-        <Class IRI="#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57"/>
-        <Class IRI="#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
-    </SubClassOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
-        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
-    </InverseObjectProperties>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
-    </TransitiveObjectProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-    </FunctionalDataProperty>
-    <DataPropertyDomain>
-        <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0</IRI>
-        <Literal xml:lang="en">InformalElements</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57</IRI>
-        <Literal xml:lang="en">FormalModelElements</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f</IRI>
-        <Literal xml:lang="en">InformalModel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a</IRI>
-        <Literal xml:lang="en">FormalModel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c</IRI>
-        <Literal xml:lang="en">uuid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637</IRI>
-        <Literal xml:lang="en">contains</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64</IRI>
-        <Literal xml:lang="en">containedIn</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:informalin_base="https://informalin.github.io/knowledgebases/informalin_base.owl#">
+    <owl:Ontology rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl">
+        <rdfs:comment xml:lang="en">Base ontology for the knowledge bases of the InFormALin project</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637 -->
+
+    <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_5f2fbbc3_11a3_488a_831a_d8f0bbc76637">
+        <owl:inverseOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64 -->
+
+    <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLObjectProperty_74f24862_3458_41e5_b407_edba76e5aa64">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">containedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c -->
+
+    <owl:DatatypeProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">uuid</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0 -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLDataProperty_d45dcc42_a463_476d_a06f_939637c6bc1c"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">InformalElements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57 -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_6f07e21e_f39b_4a31_93a4_e40a58160c57">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a"/>
+        <rdfs:label xml:lang="en">FormalModelElements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_702bd037_688c_4809_ad80_0b00fdad4c8f">
+        <rdfs:label xml:lang="en">InformalModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_e47eb0d6_46b1_495b_8563_c43cafbc0d7a">
+        <rdfs:label xml:lang="en">FormalModel</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
 
 
 
