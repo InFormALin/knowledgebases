@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://informalin.github.io/knowledgebases/informalin_base_text.owl"
      xml:base="https://informalin.github.io/knowledgebases/informalin_base_text.owl"
+     xmlns:olo="http://purl.org/ontology/olo/core#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
