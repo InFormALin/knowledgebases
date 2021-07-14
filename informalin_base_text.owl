@@ -78,8 +78,6 @@
     <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_94e7f584_ccb1_4104_9895_5c0d969d6d0b">
         <owl:inverseOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_dc92a6dd_1925_4624_aea5_54858e701d95"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
         <rdfs:range rdf:resource="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
         <rdfs:label xml:lang="en">has previous word</rdfs:label>
@@ -92,8 +90,6 @@
     <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_dc92a6dd_1925_4624_aea5_54858e701d95">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
         <rdfs:range rdf:resource="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
         <rdfs:label xml:lang="en">has next word</rdfs:label>
