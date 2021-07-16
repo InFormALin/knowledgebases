@@ -37,6 +37,7 @@
     <owl:AnnotationProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLAnnotationProperty_79e191d9_7e85_461e_ae42_62df5078719b">
         <rdfs:label xml:lang="en">dependencyType</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb"/>
     </owl:AnnotationProperty>
     
 
@@ -55,9 +56,21 @@
     <!-- https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_338dfb91_e78b_4145_bf8c_a952e927b6e9 -->
 
     <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_338dfb91_e78b_4145_bf8c_a952e927b6e9">
-        <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
-        <rdfs:range rdf:resource="https://informalin.github.io/knowledgebases/informalin_base#OWLClass_33cd62aa_e856_4bd3_93fd_454951b453b0"/>
-        <rdfs:label xml:lang="en">has dependency</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb"/>
+        <rdfs:range rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb"/>
+        <rdfs:label xml:lang="en">has source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_82e64c17_5998_4d50_941f_a2b859c1a95b -->
+
+    <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_82e64c17_5998_4d50_941f_a2b859c1a95b">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb"/>
+        <rdfs:range rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb"/>
+        <rdfs:label xml:lang="en">has target</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -177,6 +190,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">TextDocument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb -->
+
+    <owl:Class rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_23b11e6d_0c9d_48a6_98c6_27ce9f2ceffb">
+        <rdfs:subClassOf rdf:resource="https://informalin.github.io/knowledgebases/informalin_base.owl#OWLClass_171807a5_c2a0_4e61_bd08_3a08f4d10cb0"/>
+        <rdfs:label xml:lang="en">WordDependency</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
