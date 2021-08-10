@@ -97,6 +97,16 @@
     
 
 
+    <!-- https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_c1ce8819_cdfc_48de_bb7c_2f4802f7b51d -->
+
+    <owl:ObjectProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLObjectProperty_c1ce8819_cdfc_48de_bb7c_2f4802f7b51d">
+        <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text#OWLClass_f7ee71e0_fe7c_4640_b432_bb876416974a"/>
+        <rdfs:range rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_text.owl#OWLClass_b5f49fac_9778_48c1_9462_f6dd11ae711f"/>
+        <rdfs:label xml:lang="en">has coref clusters</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
