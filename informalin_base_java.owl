@@ -43,6 +43,7 @@
 
     <owl:DatatypeProperty rdf:about="https://informalin.github.io/knowledgebases/informalin_base_java.owl#isInterface">
         <rdfs:domain rdf:resource="https://informalin.github.io/knowledgebases/informalin_base_java.owl#OWLClass_5c834f48_ae0d_40d8_8ea1_c193dc511593"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label xml:lang="en">isInterface</rdfs:label>
     </owl:DatatypeProperty>
     
